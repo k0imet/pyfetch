@@ -1,5 +1,5 @@
 # pyfetch
-This is an alternative python alternative to [gofetch](https://github.com/tr3ss/gofetch)
+This is a python3 alternative to [gofetch](https://github.com/tr3ss/gofetch)
 
 The tool has the same exact capabilities as gofetch where it plainly outputs the CVEs or alternatively include `-info` to get the full CVE info. 
 
