@@ -39,7 +39,7 @@ CVE-2022-44635
 ## Get top 10 CVEs trending in the last week:
 
 ```bash
-[njauke@soctools ~]$ ./pyfetch.py day
+[demo@demo ~]$ ./pyfetch.py day
 CVE-2022-4116
 CVE-2022-23093
 CVE-2022-21225
@@ -55,7 +55,7 @@ CVE-2022-28607
 ## Get CVE info
 
 ```bash 
-[njauke@soctools ~]$ ./pyfetch.py day -info
+[demo@demo ~]$ ./pyfetch.py day -info
 CVE-2022-4116
 Description: A vulnerability was found in quarkus. This security flaw happens in Dev UI Config Editor which is vulnerable to drive-by localhost attacks leading to remote code execution.
 Severity: CRITICAL
