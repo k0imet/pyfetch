@@ -1,3 +1,5 @@
+#!/bin/python
+
 import json
 import requests
 import sys
@@ -32,7 +34,7 @@ def get_cve_info(url):
 
 def main():
     if len(sys.argv) < 2:
-        print('Usage: gofetch day|week [-info]')
+        print('Usage: pyfetch day|week [-info]')
         return
     elif sys.argv[1] == 'day':
         if len(sys.argv) == 3 and sys.argv[2] == '-info':
@@ -49,7 +51,7 @@ def main():
             url = 'https://cvetrends.com/api/cves/order-by-tweets-7days'
             get_cve(url)
     else:
-        print('Usage: gofetch day|week [-info]')
+        print('Usage: pyfetch day|week [-info]')
         return
 
 if __name__ == '__main__':
