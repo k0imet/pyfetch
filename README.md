@@ -23,7 +23,7 @@ Usage: pyfetch day|week [-info]
 
 ## Get top 10 CVEs trending in the last 24 hours:
 ```bash
-[demo@demo ~]$ ./pyfetch.py week
+[demo@demo ~]$ ./pyfetch.py day
 CVE-2022-4135
 CVE-2022-4020
 CVE-2022-4116
@@ -39,7 +39,7 @@ CVE-2022-44635
 ## Get top 10 CVEs trending in the last week:
 
 ```bash
-[demo@demo ~]$ ./pyfetch.py day
+[demo@demo ~]$ ./pyfetch.py week
 CVE-2022-4116
 CVE-2022-23093
 CVE-2022-21225
