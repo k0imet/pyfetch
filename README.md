@@ -70,4 +70,11 @@ Severity: HIGH
 -----------------------------------
 [...]
 ```
+##Send The mail 
+```bash 
+[demo@demo pyfetch]$ ./send_cve_list.sh 
+```
+
+![image](https://user-images.githubusercontent.com/60982828/205901708-d52d2394-3d7a-4816-acbe-188dd8f5dd05.png)
+
 
