@@ -82,7 +82,7 @@ Severity: HIGH
 Or 
 
 ```bash 
-[demo@demo pyfetch] ./send_cve_list.sh
+[demo@demo pyfetch] ./send_cve_list2.sh
 ```
 
 
